@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+.clearfix:after{
+    display: block;
+    content:"";
+    clear:both;
+
+}
+.header{
+    background-color:#fff;
+    position: fixed;
+    width:100%;
+    z-index:100;
+ }
+
+.wide{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.margin-box{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float:left;
+    font-size:36px; 
+}
+.box-botan{
+    background-color:#74cfae;
+    font-size:12px;
+    padding:14px 12px;
+    float:right;
+    color:#fff;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.box-botan:hover{
+    transition: 0.3s;
+    color:#333;
+}
+
+/*タイトルのとこ*/
+.main{
+    background-color:#f2f2f2;
+}
+.title-box{
+    padding-top:250px;
+    padding-bottom:250px;
+}
+
+
+.top-text{
+font-size: 90px;
+margin-bottom:20px;
+color:#74cfae;
+text-align: center;
+font-family: "Raleway";
+
+}
+.bottom-text{
+font-size:30px;
+color:#c0c0c0;
+margin-top:20px;
+text-align: center;
+font-family:"Raleway";
+margin-bottom:250px;
+}
+
+/*携帯のところ*/
+.iphone-section{
+background-color:#74cfae;
+padding-top:50px;
+}
+.iphone-box{
+width:  400px;
+float:left;
+font-size:0;
+}
+.section-text-box{
+width: 680px;
+float: right;
+text-align: center;
+color:#fff;
+}
+.section-text{
+font-size:24px;
+font-family:"Raleway";
+}
+.section-under-text{
+    font-size: 20px;
+    padding-top:35px;
+    font-family: "Raleway";
+
+}
+
+
+/*６つの画像のとこ*/
+.article{
+    padding-top:60px;
+}
+
+.article-text{
+    text-align: center;
+    font-size:24px;
+    margin-bottom: 40px;
+    font-family: "Raleway";
+}
+
+.article-box{
+    font-size:0;
+}
+.link{
+width: 300px;
+height: 300px;
+display: inline-block;
+margin-bottom: 90px;
+margin-left: 100px;
+opacity: 0.7;
+}
+.link:hover {
+    opacity:1;
+    transition: 0.3s;
+}
+
+.link:nth-child(3n+1){
+    margin: 0;
+} 
+.link:nth-child(-n+3){
+    margin-bottom: 80px;
+}
+
+
+
+.article-bottom-text{
+    padding-bottom: 70px; 
+    width: 100%;
+}
+ .article-is-box{
+    width: 624px;
+    float: left;
+    margin:0 70px 90px 148px;   
+ }
+.article-in-text{
+    font-size: 19px; 
+    text-align: center;
+}
+.mail{
+    font-size: 12px;
+    padding:14px 20px;
+   background-color: #74cfae;  
+   color:#fff; 
+}
+.mail:hover{
+    transition: 0.3s;
+    color:#333;
+}
+
+/*アニメーションもどき*/
+.section{
+    background-color: #4e4e4e;
+    padding-top:70px;
+}
+.cicrle-text-box{
+text-align: center;
+color:#fff;
+}
+
+.cicrle-text{
+    font-family:"Raleway";
+    font-size:30px;
+}
+
+.cicrle-box{
+    font-size:16px;
+    color:#fff;
+    display:inline-block;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 180px;
+    text-align: center;
+    line-height: 30px;
+}
+.cicrle-box:nth-child(1){
+    margin-left:0; 
+}
+
+/*SNSのやつ*/
+
+.nav{
+    padding-top:200px;
+    padding-bottom:200px;
+}
+.sns{
+    width: 185px;
+    padding:30px;
+    text-align: center;
+    font-size:50px;
+    color:#74cfae;
+}
+.sns:hover{
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.footer{
+    background-color:#74cfae;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:#fff;
+}
+
+.last-content{
+    float:right;
+}
+
