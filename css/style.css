@@ -4,23 +4,24 @@
     display: block;
     content:"";
     clear:both;
-
 }
+
 .header{
-    background-color:#fff;
-    position: fixed;
     width:100%;
     z-index:100;
- }
-
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align: center;
+    position: fixed;
+    background-color: #fff;
+}
+ 
 .wide{
     width: 1100px;
     margin: 0 auto;
 }
 
 .margin-box{
-    margin-top: 15px;
-    margin-bottom: 15px;
     float:left;
     font-size:36px; 
 }
@@ -29,19 +30,21 @@
     font-size:12px;
     padding:14px 12px;
     float:right;
+}
+.contact-botan{
+    transition: 0.3s;
+    text-decoration: none;
     color:#fff;
-    margin-top:15px;
-    margin-bottom:15px;
 }
 
-.box-botan:hover{
-    transition: 0.3s;
+.contact-botan:hover{
     color:#333;
 }
 
 /*タイトルのとこ*/
 .main{
     background-color:#f2f2f2;
+    padding-top: 70px;
 }
 .title-box{
     padding-top:250px;
@@ -50,132 +53,143 @@
 
 
 .top-text{
-font-size: 90px;
-margin-bottom:20px;
-color:#74cfae;
-text-align: center;
-font-family: "Raleway";
-
+    font-size: 90px;
+    color:#74cfae;
+    text-align: center;
+    font-family: "Raleway";
 }
 .bottom-text{
-font-size:30px;
-color:#c0c0c0;
-margin-top:20px;
-text-align: center;
-font-family:"Raleway";
-margin-bottom:250px;
+    font-size:30px;
+    color:#c0c0c0;
+    margin-top:20px;
+    text-align: center;
+    font-family:"Raleway";
 }
 
-/*携帯のところ*/
 .iphone-section{
-background-color:#74cfae;
-padding-top:50px;
+    background-color:#74cfae;
+    text-align: center;
+    padding-top:50px;
 }
+
 .iphone-box{
-width:  400px;
-float:left;
-font-size:0;
+    width:  400px;
+    float:left;
+    font-size:0;
 }
 .section-text-box{
-width: 680px;
-float: right;
-text-align: center;
-color:#fff;
+    width: 680px;
+    float: right;
+    text-align: center;
+    color:#fff;
 }
 .section-text{
-font-size:24px;
-font-family:"Raleway";
+    font-size:24px;
+    font-family:"Raleway";
 }
 .section-under-text{
     font-size: 20px;
-    padding-top:35px;
     font-family: "Raleway";
-
+    margin-top:35px;
+    line-height: 30px;
 }
 
-
-/*６つの画像のとこ*/
 .article{
     padding-top:60px;
+    padding-bottom:70px;
 }
 
 .article-text{
     text-align: center;
     font-size:24px;
-    margin-bottom: 40px;
     font-family: "Raleway";
+    margin-bottom:40px;
 }
 
 .article-box{
     font-size:0;
 }
 .link{
-width: 300px;
-height: 300px;
-display: inline-block;
-margin-bottom: 90px;
-margin-left: 100px;
-opacity: 0.7;
+    float: left;
+    margin-top: 80px;
+    margin-right: 100px;
+
+
 }
-.link:hover {
+.article-img{
+    transition: .3s;
+    opacity: 0.7;
+}
+.article-img:hover {
     opacity:1;
     transition: 0.3s;
 }
-
-.link:nth-child(3n+1){
-    margin: 0;
+.link:nth-child(3n){
+    margin-right:0;
 } 
 .link:nth-child(-n+3){
-    margin-bottom: 80px;
+    margin-top:0px;
+}
+.article-bottom-box{ 
+    margin-top:90px;
+    padding-right:90px;
 }
 
-
-
-.article-bottom-text{
-    padding-bottom: 70px; 
-    width: 100%;
+.article-all-box{
+    width: 81%;
+    height: 60px;
+    margin: 0 auto;
 }
  .article-is-box{
     width: 624px;
     float: left;
-    margin:0 70px 90px 148px;   
+    margin-right:90px;
+    
  }
 .article-in-text{
     font-size: 19px; 
     text-align: center;
+    
+}
+.article-btn{
+   padding:14px 20px;
+   background-color: #74cfae;  
+   float:left;
+   
 }
 .mail{
+    color:#fff;
     font-size: 12px;
-    padding:14px 20px;
-   background-color: #74cfae;  
-   color:#fff; 
+    text-decoration: none;
+    transition: 0.3s;
 }
 .mail:hover{
-    transition: 0.3s;
     color:#333;
 }
 
-/*アニメーションもどき*/
 .section{
     background-color: #4e4e4e;
     padding-top:70px;
+    padding-bottom: 100PX;
 }
 .cicrle-text-box{
-text-align: center;
-color:#fff;
+    text-align: center;
+    color:#fff;
 }
 
 .cicrle-text{
     font-family:"Raleway";
     font-size:30px;
 }
+.cicrle-main-box{
+    text-align: center; 
+    margin-top: 100PX;
+}
 
 .cicrle-box{
     font-size:16px;
     color:#fff;
     display:inline-block;
-    margin-bottom: 100px;
-    margin-top: 50px;
     margin-left: 180px;
     text-align: center;
     line-height: 30px;
@@ -183,23 +197,32 @@ color:#fff;
 .cicrle-box:nth-child(1){
     margin-left:0; 
 }
-
-/*SNSのやつ*/
+.sub-name{
+    margin-top:10px;
+}
 
 .nav{
     padding-top:200px;
     padding-bottom:200px;
+    text-align: center;
 }
 .sns{
+    text-decoration: none;
     width: 185px;
     padding:30px;
     text-align: center;
     font-size:50px;
     color:#74cfae;
-}
-.sns:hover{
     transition: 0.3s;
+}
+
+.icon{
+display: inline-block;
+}
+
+.sns:hover{
     background-color: #fff;
+    transition: 0.3s;
 }
 
 .footer{
@@ -207,9 +230,5 @@ color:#fff;
     padding-top:20px;
     padding-bottom:20px;
     color:#fff;
+    text-align: right;
 }
-
-.last-content{
-    float:right;
-}
-
