@@ -1,7 +1,12 @@
 @charset "UTF-8";
 body{
     font-family: 'Lato',serif;
+
 }
+a{
+    display: inline-block;
+}
+
 .clearfix:after{
     display: block;
     content:"";
@@ -28,15 +33,15 @@ body{
     font-size:36px; 
 }
 .box-botan{
-    background-color:#74cfae;
     font-size:12px;
-    padding:14px 12px;
     float:right;
 }
 .contact-botan{
     transition: 0.3s;
+    background-color:#74cfae;
     text-decoration: none;
     color:#fff;
+    padding:14px 12px;
 }
 .humberger-box{
     display: none;
@@ -119,16 +124,12 @@ body{
     float: left;
     margin-top: 80px;
     margin-right: 100px;
-
-
-}
-.article-img{
     transition: .3s;
     opacity: 0.7;
+
 }
-.article-img:hover {
+.link:hover {
     opacity:1;
-    transition: 0.3s;
 }
 .link:nth-child(3n){
     margin-right:0;
@@ -258,11 +259,10 @@ display: inline-block;
 }
 .section-text-box{
     float:none;
-    margin: 0 auto; 
+    margin:20px auto 0; 
+    
 }
-.section-text{
-    margin-top:20px;
-}
+
 .article-box{
     width: 300px;
     margin: 0 auto;
@@ -272,7 +272,7 @@ display: inline-block;
     margin: 0;
     display: block;
     }
-.link:nth-child(4){
+.link:nth-child(3n+4){
     margin-top:80px;
 }
 .article-bottom-box{
@@ -377,6 +377,7 @@ display: inline-block;
     text-align: center;
     width: 100%;
     margin-top:40px;
+    float:none;
 }
 .mail{
     padding:20px 30px;
@@ -415,4 +416,6 @@ margin-top: 40px;
 .icon{
     width: 100%;
 }
+.sns{
+    width: 100%;
 }
